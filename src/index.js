@@ -52,4 +52,4 @@ store.dispatch(addTodo("Read the docs"));
 store.dispatch(addTodo2("add nè", "edit nè"));
 console.log(store.getState());
 //sub : theo dõi thay đổi, cập nhật
-store.subscribe(store.getState());
+// store.subscribe(store.getState());
